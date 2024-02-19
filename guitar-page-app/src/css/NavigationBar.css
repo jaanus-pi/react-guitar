@@ -1,0 +1,66 @@
+.nav {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  z-index: 1;
+}
+
+.left, .right {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  flex: 6;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navItem:hover {
+  color: rgb(73, 73, 73);
+}
+
+.homeIcon {
+  font-size: 40px;
+  color: #666;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.homeIcon:hover {
+  font-size: 50px;
+  color: rgb(174, 188, 188);
+}
+
+.pageName {
+  font-family: 'Lora', serif;
+  cursor: default;
+}
+
+.homeIcon, .pageName {
+  margin-top: 30px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}

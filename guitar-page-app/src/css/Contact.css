@@ -1,0 +1,84 @@
+.contact {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.5)
+    ), 
+    url("https://cdn.pixabay.com/photo/2015/04/15/09/47/men-723557_1280.jpg");
+  background-size: cover;
+}
+
+.contactForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm > label {
+  margin: 10px 0;
+  padding-top: 15px;
+}
+
+.contactInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+.sendButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #555555;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  transition-duration: 0.4s;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sendButton:hover {
+  background-color: rgb(174, 188, 188);
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.contactMessage {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  height: 200px;
+  width: 400px;
+}
+
+.contactInput:focus {
+  outline: none;
+}
+
+.contactLabel {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(27, 27, 27);
+}
+
+.contactMessageBox {
+  font-family: 'Inclusive Sans', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.messageSuccess {
+  border: 3px solid green;
+}
+
+.messageError {
+  border: 3px solid red;
+}

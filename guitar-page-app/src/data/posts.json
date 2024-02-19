@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "image": "https://cdn.pixabay.com/photo/2019/07/04/09/09/guitar-4316193_1280.jpg",
+    "title": "Kitarri häälestamine",
+    "description": "Standard tuning, kuidas pilli häälestada, erinevad häälestajad, noodinimetused.",
+    "categories": ["lugemine"],
+    "route": "haalestamine"
+  },
+
+  {
+    "id": 1,
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/15/58/guitar-6683101_1280.jpg",
+    "title": "Akordid",
+    "description": "Akordivormid ja kuidas neid lugeda, põhilised akordid ning nende levinud kujud.",
+    "categories": ["lugemine", "harjutused"],
+    "route": "akordid"
+  },
+  
+  {
+    "id": 2,
+    "image": "https://cdn.pixabay.com/photo/2015/09/19/01/03/guitar-946701_1280.jpg",
+    "title": "Country Roads",
+    "description": "John Denver - Take Me Home, Country Roads",
+    "categories": ["palad"],
+    "route": "country-roads"
+  },
+
+  {
+    "id": 3,
+    "image": "https://cdn.pixabay.com/photo/2015/09/19/01/03/guitar-946701_1280.jpg",
+    "title": "Kauges külas",
+    "description": "Curly Strings - Kauges Külas",
+    "categories": ["palad"],
+    "route": "kauges-kylas"
+  },
+
+  {
+    "id": 4,
+    "image": "https://cdn.pixabay.com/photo/2017/11/12/16/41/musician-2943109_1280.jpg",
+    "title": "Barre akordid",
+    "description": "Mis on barre, F ja Bm, soovitused vasakule käele, keelte tummistamine.",
+    "categories": ["lugemine", "näpunäited", "harjutused"],
+    "route": "barre=akordid"
+  },
+
+  {
+    "id": 5,
+    "image": "https://cdn.pixabay.com/photo/2013/04/11/08/41/guitar-102708_1280.jpg",
+    "title": "Noodid E ja A keelel",
+    "description": "Noodid kahel kõige paksemal keelel, täpikeste selgitus, kuidas kasutada F ja Bm kuju ka teiste akordide mängimiseks.",
+    "categories": ["lugemine", "harjutused"],
+    "route": "noodid"
+  },
+
+  {
+    "id": 6,
+    "image": "https://cdn.pixabay.com/photo/2016/11/23/15/35/acoustic-1853571_1280.jpg",
+    "title": "Seven Nation Army",
+    "description": "The White Stripes - Seven Nation Army",
+    "categories": ["palad", "harjutused"],
+    "route": "seven-nation-army"
+  },
+
+  {
+    "id": 7,
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/15/44/audience-1835431_1280.jpg",
+    "title": "Mollpentatoonika",
+    "description": "A-moll pentatoonika skaala kitarrikaelal, milliseid sõrmi kasutada, kasulik soojendusharjutus.",
+    "categories": ["lugemine", "harjutused"],
+    "route": "mollpentatoonika"
+  },
+
+  {
+    "id": 8,
+    "image": "https://cdn.pixabay.com/photo/2022/05/04/07/05/guitar-7173355_1280.jpg",
+    "title": "Toonika ja improviseerimine",
+    "description": "Kõlalised lahendused, toonika, improviseerimine mollpentatoonikaga ning kuidas õpitud vormi liigutada erinevate helistike jaoks.",
+    "categories": ["lugemine", "näpunäited"],
+    "route": "toonika-ja-impro"
+  }
+]
