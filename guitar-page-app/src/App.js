@@ -12,6 +12,7 @@ import Noodid from "./pages/posts/Noodid";
 import SevenNationArmy from "./pages/posts/SevenNationArmy";
 import Mollpentatoonika from "./pages/posts/Mollpentatoonika";
 import ToonikaJaImpro from "./pages/posts/ToonikaJaImpro";
+import InteractiveFretboard from "./pages/InteractiveFretboard";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path='' element={ <Home /> } />
         <Route path='contact' element={ <Contact /> } />
+        <Route path='fretboard' element={ <InteractiveFretboard /> } />
         <Route path='*' element={ <NotFound /> } />
         <Route path="post/haalestamine/:id" element={<Haalestamine />} />
         <Route path="post/akordid/:id" element={<Akordid />} />

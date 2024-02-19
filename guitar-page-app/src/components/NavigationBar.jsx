@@ -19,6 +19,9 @@ const NavigationBar = () => {
           <li className="navItem">
             <Link to="contact" className="navLink">KONTAKT</Link>
           </li>
+          <li className="navItem">
+            <Link to="fretboard" className="navLink">SÕRMLAUD</Link>
+          </li>
         </ul>
       </div>
       <div className="right">
