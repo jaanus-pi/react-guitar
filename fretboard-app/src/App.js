@@ -4,7 +4,7 @@ import Fretboard from './components/fretboard/Fretboard';
 function App() {
   return (
     <div className="App">
-      <Fretboard />
+      <Fretboard numStrings={7} numFrets={24 + 1} />
     </div>
   );
 }
