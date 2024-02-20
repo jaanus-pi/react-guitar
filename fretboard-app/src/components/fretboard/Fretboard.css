@@ -3,7 +3,7 @@
   flex-direction: column;
   background: #be975b;
   width: 100%;
-  height: 300px;
+  height: calc(var(--fretboard-height) * 1px);
   margin-top: 50px;
 }
 
@@ -17,12 +17,12 @@
 .string::before {
   content: '';
   width: 100%;
-  height: 10px;
+  height: calc(var(--string-height) * 1px);
   background: linear-gradient(#eee, #999);
   box-shadow: 76px 3px 10px #806233;
   z-index: 1;
   position: absolute;
-  top: 22px;
+  top: calc(var(--string-top-position) * 1px);
 }
 
 .fret {
@@ -69,20 +69,19 @@
 }
 
 .single-dot::after {
-  top: 150px;
+  top: calc(var(--fretboard-height) / 2 * 1px);
   transform: translate(0, -50%);
 }
 
 .double-dot::before, .double-dot::after {
-  transform: translate(-140%, 50%);
+  transform: translate(-140%, -50%);
 } 
 
 .double-dot::before {
-  top: 58px;
-  
+  top: calc(var(--double-dot-position-up) * 1px);
 }
 
 .double-dot::after {
-  top: 208px;
+  top: calc(var(--double-dot-position-down) * 1px);
 }
 
