@@ -47,7 +47,7 @@
 }
 
 .note::before {
-  content: 'C#';
+  content: attr(data-note);
   width: 33px;
   height: 33px;
   border-radius: 50%;
@@ -56,7 +56,7 @@
   background: teal;
   z-index: 2;
   color: #eee;
-  opacity: 0.2;
+  opacity: 1;
 }
 
 .single-dot::after, .double-dot::before, .double-dot::after {
